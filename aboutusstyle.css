@@ -1,0 +1,138 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ section{
+   min-height: 100px;
+   align-items: center;
+   justify-content: center;
+   display: contents;
+   flex-direction: column;
+
+ }
+ .banner-image {
+ background: url(toplogo.png);
+ background-repeat: no-repeat;
+ height: 60px;
+ background-color: white;
+ }
+
+ .navbar {
+   width: 100%;
+   background-color: #000080;
+   overflow: auto;
+ }
+
+ .navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 16.6%;
+  text-align: center;
+ }
+
+.about-section{
+  background: url(AboutImg.jpg) no-repeat left;
+  background-size: 55%;
+  overflow: hidden;
+  padding: 100px 0;
+
+}
+
+.i-container{
+  width: 45%;
+  float: right;
+  background-color: #8FBEE4;
+  padding: 150px;
+}
+.i-container h1{
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.about-section1{
+  background: url(AboutImg2.jpg) no-repeat right;
+  background-size: 55%;
+  overflow: hidden;
+  padding: 100px 0;
+}
+
+.i-container1{
+  width: 45%;
+  float: left;
+  background-color: #f47b7b;
+  padding: 150px;
+}
+.i-container1 h1{
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.about-section2{
+  background: no-repeat left;
+  background-size: 85%;
+  overflow: hidden;
+  padding: 100px 0;
+}
+
+.i-container2{
+  width: 45%;
+  float: right;
+  background-color: #8FBEE4;
+  padding: 150px;
+}
+.i-container2 h1{
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 1200px){
+  .i-container{
+    padding: 80px;
+  }
+  .i-container1{
+    padding: 80px;
+  }
+  .i-container2{
+    padding: 80px;
+  }
+}
+@media screen and (max-width: 1200px){
+  .about-section{
+    background-size: 100%;
+    padding:100px 40px;
+  }
+  .about-section1{
+    background-size: 100%;
+    padding:100px 40px;
+  }
+  .about-section2{
+    background-size: 100%;
+    padding:100px 40px;
+  }
+  .i-container{
+    width: 100%;
+  }
+  .i-container1{
+    width: 100%;
+  }
+  .i-container2{
+    width: 100%;
+  }
+}
+
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: Center;
+  color: white;
+  background-color: #000080;
+}
