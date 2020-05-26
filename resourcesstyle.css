@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.banner-image {
+	background: url('toplogo.png');
+	background-repeat: no-repeat;
+	height: 60px;
+	background-color: white;
+}
+.navbar {
+	width: 100%;
+	background-color: #000080;
+	overflow: auto;
+}
+.navbar a {
+	float: left;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	width: 16.6%;
+	text-align: center;
+}
+.banner-image2 {
+	margin: 0.5%;
+	background: url("resoimage.jpg");
+	height: 150px;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	opacity: 80%
+}
+.banner-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-220px, -50%);
+	color: white;
+	text-shadow: -2px 0 #8B0000, 0 2px #8B0000, 2px 0 #8B0000, 0 -2px #8B0000;
+}
+h1 {
+	font-size: 64px;
+}
+h2 {
+	margin: auto;
+	font-weight: bold;
+	color: black;
+	font-size: 32px;
+}
+a {
+	margin: auto;
+	color: #800000;
+	font-size: 20px;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: #8B0000;
+}
+.div1 {
+	float: left;
+	width: 33%;
+	padding: 3%;
+	text-align: justify;
+	background-color: white;
+}
+.div2 {
+	float: left;
+	width: 34%;
+	padding: 3%;
+	text-align: justify;
+	background-color: white;
+}
+.div3 {
+	float: left;
+	width: 33%;
+	padding: 3%;
+	text-align: justify;
+	background-color: white;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: Center;
+  color: white;
+  background-color: #000080;
+
+}
